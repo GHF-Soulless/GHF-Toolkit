@@ -18,7 +18,7 @@ exit
 
 :success
 echo.
-echo Attack successul, the target's password is: %pass%
+echo Attack successful, the target's password is: %pass%
 net use \\%ip% /d /y >nul 2>&1
 echo Press any key to exit GHF Bruteforcer.
 pause >nul
